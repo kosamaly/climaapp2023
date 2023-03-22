@@ -1,6 +1,6 @@
 // @dart=2.9
 import 'package:clima202/screens/loading-screen.dart';
-import 'package:clima202/screens/location-screen.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       initialRoute: "/",
       routes: {
         "/": (context) => LoadingScreen(),
-        "/loading-screen": (context) => LocationScreen(),
+        // "/loading-screen": (context) => LocationScreen(),
       },
     );
   }
